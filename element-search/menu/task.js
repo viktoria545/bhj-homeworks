@@ -1,4 +1,4 @@
- 'use strict'
+ 'use strict';
 const menuSub = document.querySelectorAll('.menu_sub');
 const menuLink = document.querySelectorAll('.menu__link');
 
