@@ -22,6 +22,3 @@ dropdowns.forEach(function(item){
 });
 
 
-
-
-
