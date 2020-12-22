@@ -1,5 +1,4 @@
 'use strict';
-const modalMain = document.getElementById('modal_main');
 const modalClose = document.getElementsByClassName('modal__close');
 const showSuccess = document.getElementsByClassName('show-success');
 const modalSuccess = document.getElementById('modal_success');
@@ -14,7 +13,9 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 
-doWell.onclick = function() {
+doWell.onclick = function() { 
     modalSuccess.classList.remove('modal_active');
     modalSuccess.classList.add('modal_active');
-}
+} 
+
+  
